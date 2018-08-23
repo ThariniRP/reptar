@@ -26,7 +26,7 @@
     "release": "standard-version",
     "e2etest": "testcafe puppeteer:no_sandbox test/e2e/*js --reporter html",
     "lighthouse:ci": "lighthouse --output-path=report/lighthouse-report.html --quiet --chrome-flags='--headless --no-sandbox=true' // your website URL//",
-    "runner": "node server/server.js"
+    "runner": "./bin/reptar.js"
   },
   "config": {
     "validate-commit-msg": {
